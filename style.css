@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgray;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.container {
+    display: flex;
+    max-width: fit-content;
+    flex-direction: column;
+    background-color: white;
+    margin: 20px auto;
+    padding: 10px;
+    gap: 10px;
+}
+
+.light {
+    width: 200px;
+    height: 200px;
+    border: 17px solid;
+}
+
+.red {
+    background-color: red;
+    border-color:  #750505;
+
+}
+
+.yellow {
+    background-color: yellow;
+    border-color:  #de7c2b;
+}
+
+.green {
+    background-color: green;
+    border-color:  #1b4809;
+}
