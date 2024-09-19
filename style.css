@@ -31,7 +31,6 @@ body {
 }
 
 .red {
-    position: relative;
     background-color: red;
     border-color:  #830606;
 }
